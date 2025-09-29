@@ -27,8 +27,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterMoloco",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.3.0/AdiscopeMediaMaxAdapterMoloco.zip",
-            checksum: "656ac474d5b80cd58e33cef5170433079cf52f3d5ad4176f6bc7dfdc6059e8ae"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/4.4.1/AdiscopeMediaMaxAdapterMoloco.zip",
+            checksum: "d42b39d53a4cf3d2395de8940cf69ddb345ab48808f389d16a777302e769b478"
         ),
         .binaryTarget(
             name: "MolocoSDK",
