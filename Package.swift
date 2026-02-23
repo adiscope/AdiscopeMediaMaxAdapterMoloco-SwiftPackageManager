@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.4.0"),
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.5.1"),
     ],
     targets: [
         .target(
@@ -28,18 +28,18 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterMoloco",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AdiscopeMediaMaxAdapterMoloco.zip",
-            checksum: "0dc718aa6f2b3e1926bda40c20b7828f549568d9b175b40cd6e49a9efe3461bc"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.2.0/AdiscopeMediaMaxAdapterMoloco.zip",
+            checksum: "cad270c3c4d5be7ca8444702b291cec66d5565483732df84500b6e80bdfbc72c"
         ),
         .binaryTarget(
             name: "AdiscopeMediaMaxAdapterMolocoMediationAdapter",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/AppLovinMediationMolocoAdapter.xcframework.zip",
-            checksum: "fcd3a1119f5a5ce01e00a50e6ea774cf0576280f780a6a1df3d4baa4dbae9ba8"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.2.0/AppLovinMediationMolocoAdapter.xcframework.zip",
+            checksum: "02f625f5ec197b00e4639c68d149b62968a9ffd50d88b981c076f9a5b11b42cd"
         ),
         .binaryTarget(
             name: "MolocoSDK",
-            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.0.0/MolocoSDK.xcframework.zip",
-            checksum: "85d690dc4bc4c6bae3bbbae1a0d8b929019aeaf2db60b018bd0c3b26072e9974"
+            url: "https://github.com/adiscope/Adiscope-iOS-Sample/releases/download/5.2.0/MolocoSDK.xcframework.zip",
+            checksum: "0e0deaec5993d71e13a67328ed4fd8ecc74f9bdb89527dbabc18126c3bdfb80b"
         ),
     ]
 )
